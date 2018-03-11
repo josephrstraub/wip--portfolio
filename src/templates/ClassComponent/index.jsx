@@ -1,6 +1,6 @@
 // @flow
 import * as React from 'react';
-import './styles.scss';
+import styles from './styles.scss';
 
 type Props = {};
 type State = {};
