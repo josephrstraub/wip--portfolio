@@ -168,7 +168,7 @@ rules:
     - beforeColon: false
       afterColon: true
   max-nested-callbacks:
-    - 1
+    - 0
     - 3
   new-cap:
     - 1
