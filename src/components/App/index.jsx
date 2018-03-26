@@ -1,6 +1,6 @@
 // @flow
-import React from 'react';
+import * as React from 'react';
 
-export default function App() {
+export default function App(): React.Element<any> {
   return <div />;
 }
