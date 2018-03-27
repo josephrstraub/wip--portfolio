@@ -5,9 +5,9 @@ import styles from './styles.scss';
 
 type Props = { color: string, description: string, title: string };
 
-function ProjectCard(props: Props): React.Element<any> {
+export default function Card(props: Props): React.Element<any> {
   return (
-    <div className={styles['project-card']} style={{ backgroundColor: props.color }}>
+    <div className={styles.card} style={{ backgroundColor: props.color }}>
       <Devices />
       <main>
         <h1>{props.title}</h1>
@@ -16,5 +16,3 @@ function ProjectCard(props: Props): React.Element<any> {
     </div>
   );
 }
-
-export default ProjectCard;
